@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: Arial sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+.container {
+    text-align: center;
+}
+
+#generateBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#colorcode {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
